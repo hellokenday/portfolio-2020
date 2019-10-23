@@ -8,7 +8,7 @@
 // Color Scheme
 // Uncomment the variables below and change the hex values.
 
-// $primary:      #000;
+$primary:       #105540;
 // $primary-2:     #000;
 // $primary-3:     #000;
 
@@ -26,9 +26,18 @@ $theme-colors: (
     "primary-3":  $primary-3,
 );
 
-$sans-serif: "Apercu", Helvetica Neue, "Lato", sans-serif;
+$primary-lighter: rgba(16,85,64, 0.5);
 
-$serif: "Plantin Light", "Crimson Text", Georgia, serif;
+// Typography
+
+$sans-serif: "Apercu", Helvetica Neue, "Lato", sans-serif;
+$serif: "Plantin Light", "Jomolhari", Georgia, serif;
 
 $font-family-sans-serif: $sans-serif;
+
 $headings-font-family:   $serif;
+$headings-font-weight: 	 normal;
+$display1-weight:        normal;
+$display2-weight:        normal;
+$display3-weight:        normal;
+$display4-weight:        normal;

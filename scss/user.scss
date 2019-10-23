@@ -4,6 +4,51 @@
 //
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
 
+a {
+	font-weight: normal;
+}
+
+a h3 {
+	display: inline;
+
+	&:hover {
+	    color: rgb(51,51,51);
+	    padding-bottom: 3px;
+	    background: linear-gradient(to right, rgb(51,51,51) 0%, rgb(51,51,51) 100%);
+	    background-size: 1px 1px;
+	    background-position: 0 100%;
+	    background-repeat: repeat-x;
+	}
+}
+
+a img,
+.display-4 a {
+    transition: 		opacity 0.2s ease-in-out;
+    -moz-transition: 	opacity 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: 		opacity 0.2s ease-in-out;
+	opacity: 1;
+
+	&:hover {
+		opacity: 0.6;
+	}
+}
+
+.display-4 a:hover {
+	color: inherit;
+} 
+
+.underlined {
+	text-decoration: none;
+    color: rgb(25,25,25);
+    padding-bottom: 0px;
+    background: linear-gradient(to right, $primary-lighter 0%, $primary-lighter 100%);
+    background-size: 1px 8px;
+    background-position: 0 76%;
+    background-repeat: repeat-x;
+}
+
 .navbar {
 	opacity: 0.95;
+	border-bottom: none;
 }

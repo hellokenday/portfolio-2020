@@ -5,8 +5,6 @@
 //
 // Custom functions
 
-console.log("main");
-
 $( document ).ready(function() {
   
   checkComponents();
