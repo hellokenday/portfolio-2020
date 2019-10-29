@@ -1,13 +1,16 @@
 @charset "UTF-8";
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8d921965-fb59-4e80-8735-5334141af6a3&fontids=5607912");
+@import url("https://fonts.googleapis.com/css?family=Jomolhari&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+html {
+  font-size: 20px !important; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8d921965-fb59-4e80-8735-5334141af6a3&fontids=5607912");
-@import url("https://fonts.googleapis.com/css?family=Jomolhari&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -56,11 +59,11 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Apercu", Helvetica Neue, "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: rgba(0, 0, 0, 0.8);
   text-align: left;
   background-color: #fff; }
 
@@ -1463,7 +1466,7 @@ textarea.form-control {
   margin-top: 0.3rem;
   margin-left: -1.25rem; }
   .form-check-input:disabled ~ .form-check-label {
-    color: #adb5bd; }
+    color: #6c757d; }
 
 .form-check-label {
   margin-bottom: 0; }
@@ -1721,7 +1724,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 600;
-  color: #495057;
+  color: rgba(0, 0, 0, 0.8);
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -1739,7 +1742,7 @@ textarea.form-control {
     .btn {
       transition: none; } }
   .btn:hover {
-    color: #495057;
+    color: rgba(0, 0, 0, 0.8);
     text-decoration: none; }
   .btn:focus, .btn.focus {
     outline: 0;
@@ -4372,7 +4375,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Apercu", Helvetica Neue, "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4457,7 +4460,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Apercu", Helvetica Neue, "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7666,10 +7669,10 @@ a.text-primary-3:hover, a.text-primary-3:focus {
   color: #030307 !important; }
 
 .text-body {
-  color: #495057 !important; }
+  color: rgba(0, 0, 0, 0.8) !important; }
 
 .text-muted {
-  color: #adb5bd !important; }
+  color: #6c757d !important; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
@@ -7956,7 +7959,7 @@ img.bg-image {
   margin-top: 0.75rem; }
 
 a.card {
-  color: #495057;
+  color: rgba(0, 0, 0, 0.8);
   font-weight: 400;
   transition: all 0.1s ease; }
   a.card[class*='hover-shadow']:hover {
@@ -9522,7 +9525,7 @@ figcaption {
   margin-top: 0.75rem;
   font-size: 0.875rem;
   font-weight: 600;
-  color: #adb5bd; }
+  color: #6c757d; }
 
 blockquote {
   position: relative;
@@ -11068,7 +11071,7 @@ span.flatpickr-weekday {
     .flatpickr-months .flatpickr-month:hover svg, .flatpickr-months .flatpickr-next-month:hover svg, .flatpickr-months .flatpickr-prev-month:hover svg {
       fill: #105540; }
   .flatpickr-months .flatpickr-month {
-    color: #495057; }
+    color: rgba(0, 0, 0, 0.8); }
 
 .flatpickr-current-month span.cur-month {
   font-weight: 600; }
@@ -11081,7 +11084,7 @@ span.flatpickr-weekday {
 .flatpickr-day {
   border-radius: 0.3125rem;
   font-weight: 500;
-  color: #495057; }
+  color: rgba(0, 0, 0, 0.8); }
   .flatpickr-day.today {
     border-color: #105540; }
     .flatpickr-day.today:hover {
@@ -11092,7 +11095,7 @@ span.flatpickr-weekday {
     border-color: rgba(0, 0, 0, 0); }
 
 span.flatpickr-weekday {
-  color: #495057; }
+  color: rgba(0, 0, 0, 0.8); }
 
 .flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay {
   background: #105540;
@@ -11238,7 +11241,7 @@ https://flickity.metafizzy.co
     height: 6px;
     border-radius: 10rem;
     margin: 0 5px;
-    background: #495057;
+    background: rgba(0, 0, 0, 0.8);
     opacity: .2;
     transition: transform 0.2s linear, opacity 0.2s linear; }
     .flickity-page-dots .dot.is-selected {
@@ -11338,9 +11341,9 @@ https://flickity.metafizzy.co
 .form-group label {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #adb5bd; }
+  color: #6c757d; }
   .form-group label.custom-control-label {
-    color: #495057; }
+    color: rgba(0, 0, 0, 0.8); }
     .form-group label.custom-control-label:before, .form-group label.custom-control-label:after {
       top: 0.125rem; }
 
@@ -11424,7 +11427,7 @@ https://flickity.metafizzy.co
     font-size: 0.75rem;
     min-width: 13px;
     text-align: center;
-    color: #adb5bd;
+    color: #6c757d;
     font-weight: 600;
     display: block; }
     .custom-range-labels > span:before {
@@ -11432,7 +11435,7 @@ https://flickity.metafizzy.co
       height: .125rem;
       width: 2px;
       height: .4rem;
-      background: #adb5bd;
+      background: #6c757d;
       display: block;
       margin: 0 auto;
       margin-bottom: .5rem;
@@ -12347,10 +12350,10 @@ Build date: 2018-12-11 23:23:51
   .irs--theme .irs-grid {
     bottom: -8px; }
   .irs--theme .irs-grid-pol {
-    background: #adb5bd; }
+    background: #6c757d; }
   .irs--theme .irs-grid-text {
     margin-top: .5rem;
-    color: #adb5bd;
+    color: #6c757d;
     font-size: 0.75rem;
     font-weight: 600;
     bottom: -8px; }
@@ -13473,7 +13476,7 @@ a.plyr__control {
   display: none !important; }
 
 .plyr {
-  font-family: "Inter UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Apercu", Helvetica Neue, "Lato", sans-serif; }
 
 .plyr__poster {
   background-size: cover !important; }

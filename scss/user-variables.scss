@@ -23,21 +23,32 @@ $theme-color-scheme: (
 $theme-colors: (
     "primary":    $primary,
     "primary-2":  $primary-2,
-    "primary-3":  $primary-3,
+    "primary-3":  $primary-3
 );
 
 $primary-lighter: rgba(16,85,64, 0.5);
 
 // Typography
-
+ 
 $sans-serif: "Apercu", Helvetica Neue, "Lato", sans-serif;
 $serif: "Plantin Light", "Jomolhari", Georgia, serif;
 
 $font-family-sans-serif: $sans-serif;
 
+$font-family-base:		 $sans-serif;
 $headings-font-family:   $serif;
 $headings-font-weight: 	 normal;
 $display1-weight:        normal;
 $display2-weight:        normal;
 $display3-weight:        normal;
 $display4-weight:        normal;
+
+$body-color: rgba(0,0,0,0.8); 
+
+html {
+	font-size: 20px !important;
+}
+
+$font-size-base: 1rem;
+
+$text-muted: #6c757d;
