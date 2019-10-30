@@ -4,6 +4,10 @@
 //
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
 
+
+// links
+//
+
 a {
 	font-weight: normal;
 }
@@ -48,7 +52,22 @@ a img,
     background-repeat: repeat-x;
 }
 
+// navigation
+//
+
 .navbar {
 	opacity: 0.95;
 	border-bottom: none;
 }
+
+// layout
+//
+
+section {
+	padding: 0 0 2rem 0;
+	@include media-breakpoint-up(md) {
+		padding: 0 0 4rem 0;
+	}
+}
+
+

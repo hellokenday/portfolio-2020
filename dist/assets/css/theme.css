@@ -14112,4 +14112,10 @@ a img,
   opacity: 0.95;
   border-bottom: none; }
 
+section {
+  padding: 0 0 2rem 0; }
+  @media (min-width: 768px) {
+    section {
+      padding: 0 0 4rem 0; } }
+
 /*# sourceMappingURL=theme.css.map */
