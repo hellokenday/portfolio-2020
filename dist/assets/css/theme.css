@@ -14112,6 +14112,12 @@ a img,
   opacity: 0.95;
   border-bottom: none; }
 
+.homepage section {
+  padding: 3rem 0; }
+  @media (min-width: 768px) {
+    .homepage section {
+      padding: 6rem 0; } }
+
 section {
   padding: 0 0 2rem 0; }
   @media (min-width: 768px) {
