@@ -4,6 +4,11 @@
 //
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
 
+//
+// imports
+
+@import 'owl.carousel';
+@import 'owl.theme.default';
 
 // links
 //
@@ -25,8 +30,30 @@ a h3 {
 	}
 }
 
+.owl-carousel h5 {
+	display: inline;
+}
+.owl-carousel span {
+	display: block;
+	margin-top: 0.25rem;
+}
+
+.owl-carousel a:hover h5 {
+	color: rgb(51,51,51);
+    padding-bottom: 3px;
+    background: linear-gradient(to right, rgb(51,51,51) 0%, rgb(51,51,51) 100%);
+    background-size: 1px 1px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+}
+
+.homepage h1 a:hover {
+	color: $headings-color;
+}
+
 a img,
-.display-4 a {
+.display-4 a,
+.homepage h1 a:hover {
     transition: 		opacity 0.2s ease-in-out;
     -moz-transition: 	opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -77,4 +104,21 @@ section {
 	}
 }
 
+// project carousel
+//
 
+.card {
+	border: none;
+	border-radius: 0;
+}
+.card-body {
+    padding: 1rem 0;
+
+    h5 {
+    	margin-bottom: 0.25rem;
+    }
+}
+.card-img-top {
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
+}
