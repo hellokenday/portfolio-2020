@@ -5,10 +5,42 @@
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
 
 //
-// imports
+// Imports
 
-@import 'owl.carousel';
-@import 'owl.theme.default';
+// Modules and variables
+@import 'modules/colors';
+// @import 'modules/variables';
+
+// Third-party
+// @import 'vendor/boilerplate';
+// @import 'vendor/bootstrap-overrides';
+// @import 'vendor/lazyload';
+@import 'vendor/owl.carousel';
+@import 'vendor/owl.theme.default';
+
+// Partials
+@import 'partials/grid';
+@import 'partials/layout';
+@import 'partials/buttons';
+@import 'partials/fontface';
+@import 'partials/typography';
+@import 'partials/icons';
+
+// Components
+@import 'components/carousel';
+// @import 'components/navbar';
+@import 'components/video';
+@import 'components/tabs';
+@import 'components/owl-carousel';
+
+// Helpers
+// @import 'helpers/mixins';
+
+// Pages
+// @import 'pages/homepage';
+// @import 'pages/about';
+@import 'pages/project'; 
+ 
 
 // links
 //
@@ -121,4 +153,11 @@ section {
 .card-img-top {
     border-top-left-radius:  0;
     border-top-right-radius: 0;
+}
+
+//
+// Project
+
+.bg-grey {
+	background: #f8f8fa;
 }

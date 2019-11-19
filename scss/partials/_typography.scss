@@ -1,0 +1,52 @@
+// typography.scss
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+html {
+  font-size: 1rem;
+}
+
+.section {
+     p a, li a {
+      border-bottom: 1px solid #00829A;
+      color: inherit;
+  }
+}
+
+.collapsible-link.collapsible-link {
+  border-bottom: none;
+  color: $light-blue;
+}
+
+body { 
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+}
+
+span {
+  color: $light-grey;
+  
+  &.font-italic {
+    color: rgba(23, 35, 34, 0.75);
+  }
+}
+
+.navbar,
+a {
+  font-weight: 400;
+}
