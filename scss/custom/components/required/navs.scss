@@ -92,6 +92,9 @@ section,footer{
 // Nav Link Collapse
 
 .nav-link{
+  
+  font-family: $sans-serif;
+
   &[data-toggle="collapse"]{
     > .icon{
       transform: rotateZ(-90deg);

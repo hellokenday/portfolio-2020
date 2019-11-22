@@ -25,6 +25,9 @@ html {
      p a, li a {
       border-bottom: 1px solid #00829A;
       color: inherit;
+      &:hover {
+        color: $light-blue;
+      }
   }
 }
 
@@ -39,10 +42,8 @@ body {
 }
 
 span {
-  color: $light-grey;
-  
   &.font-italic {
-    color: rgba(23, 35, 34, 0.75);
+    color: $text-muted;
   }
 }
 
