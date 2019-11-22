@@ -22,12 +22,18 @@ html {
 }
 
 .section {
-     p a, li a {
-      border-bottom: 1px solid #00829A;
-      color: inherit;
+    a {
+      color: $light-blue;
       &:hover {
         color: $light-blue;
       }
+    }
+   p a, li a {
+    border-bottom: 1px solid #00829A;
+    color: $body-color;
+    &:hover {
+      color: $light-blue;
+    }
   }
 }
 

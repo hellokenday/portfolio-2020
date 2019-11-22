@@ -103,3 +103,16 @@ section,footer{
     }
   }
 }
+
+// Scroll-to-top button
+
+.btn-primary.btn-primary {
+    border-color: inherit;
+    border: 1px solid rgba(0, 0, 0, 0.02) !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15) !important;
+    &:hover,
+    &:active {
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.20) !important;
+      background-color: inherit;
+    }
+}
