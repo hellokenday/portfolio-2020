@@ -15725,19 +15725,6 @@ article table {
   src: url("../scss/fonts/plantin/2c17b39d-2d4b-4aea-830c-187fabc5bc3d.eot?#iefix");
   src: url("../scss/fonts/plantin/2c17b39d-2d4b-4aea-830c-187fabc5bc3d.eot?#iefix") format("eot"), url("../scss/fonts/plantin/94834402-7ccb-47a0-a20f-28759066e23b.woff2") format("woff2"), url("../scss/fonts/plantin/50d3e854-4121-44aa-b019-bd0d8a758cb3.woff") format("woff"), url("../scss/fonts/plantin/c81ca7fe-bf4d-490f-b606-f277f6bf37cb.ttf") format("truetype"); }
 
-h2 {
-  font-size: 3rem; }
-
-h3 {
-  font-size: 40px; }
-
-h4 {
-  font-size: 26px;
-  margin-bottom: 24px; }
-
-h5 {
-  font-size: 22px; }
-
 html {
   font-size: 1rem; }
 
@@ -15863,6 +15850,18 @@ a {
         cursor: pointer; }
     .project-carousel .owl-stage .owl-item .card-body {
       padding-left: 0; }
+
+@media (max-width: 767.98px) {
+  .homepage h1 {
+    font-size: 40px; } }
+
+@media (max-width: 767.98px) {
+  .homepage h3 {
+    font-size: 26px; } }
+
+@media (max-width: 767.98px) {
+  .homepage h5.text-muted {
+    font-size: 1rem; } }
 
 .section {
   max-width: 664px; }
