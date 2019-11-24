@@ -8,6 +8,7 @@
 $( document ).ready(function() {
   
   checkComponents();
+  initReadMoreLinks();
 });
 
 function checkComponents() {
@@ -48,8 +49,21 @@ function initOwlCarousels() {
           items:3
       },
       1600: {
-          items:4
+          items:3
       }
     }
   })
+}
+
+function initReadMoreLinks() {
+
+  $('.read-more').click(function(){
+      var $this = $(this);
+      $this.toggleClass('read-more');
+      if($this.hasClass('read-more')){
+          $this.text('Read more');         
+      } else {
+          $this.text('Read less');
+      }
+  });
 }
