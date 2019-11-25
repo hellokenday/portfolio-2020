@@ -57,3 +57,13 @@ span {
 a {
   font-weight: 400;
 }
+
+.underlined {
+  text-decoration: none;
+    color: rgb(25,25,25);
+    padding-bottom: 0px;
+    background: linear-gradient(to right, $primary-lighter 0%, $primary-lighter 100%);
+    background-size: 1px 8px;
+    background-position: 0 76%;
+    background-repeat: repeat-x;
+}

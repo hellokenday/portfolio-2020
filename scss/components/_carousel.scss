@@ -25,6 +25,23 @@
   }
 }
 
+.owl-carousel h5 {
+  display: inline;
+}
+.owl-carousel span {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.owl-carousel a:hover h5 {
+  color: rgb(51,51,51);
+    padding-bottom: 3px;
+    background: linear-gradient(to right, rgb(51,51,51) 0%, rgb(51,51,51) 100%);
+    background-size: 1px 1px;
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+}
+
 .figure {
   
   position: relative;
@@ -46,4 +63,22 @@
 .figure-caption.figure-caption {
     color: #6c757d; 
     font-weight: 400;
+}
+
+// Project carousel
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+.card-body {
+    padding: 1rem 0;
+
+    h5 {
+      margin-bottom: 0.25rem;
+    }
+}
+.card-img-top {
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
 }

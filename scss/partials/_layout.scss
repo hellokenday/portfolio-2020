@@ -1,4 +1,5 @@
 // Gutter on small devices
+
 .container {
   position: relative;
   @include media-breakpoint-down(sm) {
@@ -11,6 +12,13 @@
   padding-bottom: 196px;
   @include media-breakpoint-down(sm) {
     padding-bottom: 144px;
+  }
+}
+
+section {
+  padding: 0 0 2rem 0;
+  @include media-breakpoint-up(md) {
+    padding: 0 0 4rem 0;
   }
 }
 

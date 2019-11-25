@@ -13,7 +13,7 @@
 
 // Third-party
 // @import 'vendor/boilerplate';
-// @import 'vendor/bootstrap-overrides';
+@import 'vendor/bootstrap-overrides';
 // @import 'vendor/lazyload';
 @import 'vendor/owl.carousel';
 @import 'vendor/owl.theme.default';
@@ -28,7 +28,7 @@
 
 // Components
 @import 'components/carousel';
-// @import 'components/navbar';
+@import 'components/navbar';
 @import 'components/video';
 @import 'components/tabs';
 @import 'components/owl-carousel';
@@ -39,128 +39,3 @@
 // Pages
 @import 'pages/homepage';
 @import 'pages/project'; 
- 
-
-// links
-//
-
-a {
-	font-weight: normal;
-}
-
-a h3 {
-	display: inline;
-
-	&:hover {
-	    color: rgb(51,51,51);
-	    padding-bottom: 3px;
-	    background: linear-gradient(to right, rgb(51,51,51) 0%, rgb(51,51,51) 100%);
-	    background-size: 1px 1px;
-	    background-position: 0 100%;
-	    background-repeat: repeat-x;
-	}
-}
-
-.owl-carousel h5 {
-	display: inline;
-}
-.owl-carousel span {
-	display: block;
-	margin-top: 0.25rem;
-}
-
-.owl-carousel a:hover h5 {
-	color: rgb(51,51,51);
-    padding-bottom: 3px;
-    background: linear-gradient(to right, rgb(51,51,51) 0%, rgb(51,51,51) 100%);
-    background-size: 1px 1px;
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-}
-
-.homepage h1 a:hover {
-	color: $headings-color;
-}
-
-a img,
-.display-4 a,
-.homepage h1 a:hover {
-    transition: 		opacity 0.2s ease-in-out;
-    -moz-transition: 	opacity 0.2s ease-in-out;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    -o-transition: 		opacity 0.2s ease-in-out;
-	opacity: 1;
-
-	&:hover {
-		opacity: 0.6;
-	}
-}
-
-.display-4 a:hover {
-	color: inherit;
-} 
-
-.underlined {
-	text-decoration: none;
-    color: rgb(25,25,25);
-    padding-bottom: 0px;
-    background: linear-gradient(to right, $primary-lighter 0%, $primary-lighter 100%);
-    background-size: 1px 8px;
-    background-position: 0 76%;
-    background-repeat: repeat-x;
-}
-
-// navigation
-//
-
-.navbar {
-	opacity: 0.95;
-	border-bottom: none;
-}
-
-// layout
-//
-
-.homepage section {
-	padding: 3rem 0;
-	@include media-breakpoint-up(md) {
-		padding: 6rem 0;
-	}
-}
-
-section {
-	padding: 0 0 2rem 0;
-	@include media-breakpoint-up(md) {
-		padding: 0 0 4rem 0;
-	}
-}
-
-// project carousel
-//
-
-.card {
-	border: none;
-	border-radius: 0;
-}
-.card-body {
-    padding: 1rem 0;
-
-    h5 {
-    	margin-bottom: 0.25rem;
-    }
-}
-.card-img-top {
-    border-top-left-radius:  0;
-    border-top-right-radius: 0;
-}
-
-//
-// Project
-
-.bg-grey {
-	background: #f8f8fa;
-}
-section.bg-grey {
-	padding-bottom: 0;
-	padding: 40px 0 40px 0;
-}

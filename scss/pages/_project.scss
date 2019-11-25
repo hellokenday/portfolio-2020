@@ -3,3 +3,11 @@
 .section {
   max-width: 664px;
 }
+
+.bg-grey {
+	background: #f8f8fa;
+}
+section.bg-grey {
+	padding-bottom: 0;
+	padding: 40px 0 40px 0;
+}
