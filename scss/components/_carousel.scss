@@ -1,28 +1,22 @@
 // carousel.scss
+//
 
-.carousel {
-  
-  .carousel-caption {
-    bottom: 15px;
-  }
+// Project carousel
 
-  
-  // make video carousel item same height as images
-  
-  .embed-responsive {
-    
-    @include media-breakpoint-up(lg) {
-      min-height: 696px;
-      border: 0;
+.card {
+  border: none;
+  border-radius: 0;
+}
+.card-body {
+    padding: 1rem 0;
+
+    h5 {
+      margin-bottom: 0.25rem;
     }
-  }
-  
-  .embed-responsive-item {
-    
-    @include media-breakpoint-up(lg) {
-      padding: 90px;
-    }
-  }
+}
+.card-img-top {
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
 }
 
 .owl-carousel h5 {
@@ -42,43 +36,20 @@
     background-repeat: repeat-x;
 }
 
-.figure {
-  
-  position: relative;
-  
-  .figure-caption {
-    
-    @include media-breakpoint-down(sm) {
-      display: none;
-    }
-    
-    position: absolute;
-    bottom: 30px;
-    left: 15%;
-    right: 15%;
-  }
+// Flickity carousel
+
+[data-flickity].controls-light .flickity-page-dots .dot {
+    background: $off-black;
 }
 
-.carousel-caption.carousel-caption,
-.figure-caption.figure-caption {
-    color: #6c757d; 
-    font-weight: 400;
-}
-
-// Project carousel
-
-.card {
-  border: none;
-  border-radius: 0;
-}
-.card-body {
-    padding: 1rem 0;
-
-    h5 {
-      margin-bottom: 0.25rem;
-    }
-}
-.card-img-top {
-    border-top-left-radius:  0;
-    border-top-right-radius: 0;
+.flickity-prev-next-button {
+    padding: 0;
+    background: #fff;
+    border: 1px solid #dee2e6;
+    width: 3rem;
+    height: 3rem;
+    transition: opacity 0.2s linear, box-shadow 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

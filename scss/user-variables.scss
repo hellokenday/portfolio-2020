@@ -8,9 +8,15 @@
 // Color Scheme
 // Uncomment the variables below and change the hex values.
 
+@import 'modules/colors';
+
+// $primary:       $off-black;
+// $primary-2:     $off-black;
+// $primary-3:     $off-black;
+
 $primary:       #ffffff;
-// $primary-2:     #000;
-// $primary-3:     #000;
+$primary-2:     #ffffff;
+$primary-3:     #ffffff;
 
 // Do not change or remove the $theme-color-scheme or $theme-colors maps below
 
@@ -74,18 +80,18 @@ $serif: "Plantin Light", "Jomolhari", Georgia, serif;
 
 $font-family-sans-serif: $sans-serif;
 
-$font-family-base:		 $sans-serif;
+$font-family-base:     $sans-serif;
 $headings-font-family:   $serif;
-$headings-font-weight: 	 normal;
+$headings-font-weight:   normal;
 $display1-weight:        normal;
 $display2-weight:        normal;
 $display3-weight:        normal;
 $display4-weight:        normal;
 
-$body-color: rgba(0,0,0,0.8); 
+$body-color: $off-black; 
 
 html {
-	font-size: 20px !important;
+  font-size: 20px !important;
 }
 
 $font-size-base: 1rem;
