@@ -18,6 +18,9 @@ $primary:       #ffffff;
 $primary-2:     #ffffff;
 $primary-3:     #ffffff;
 
+$primary-escaped:        $off-black;
+$carousel-caption-color: $off-black;
+
 // Do not change or remove the $theme-color-scheme or $theme-colors maps below
 
 $theme-color-scheme: (
@@ -41,6 +44,20 @@ $container-max-widths: (
   md: 720px,
   lg: 960px,
   xl: 1024px
+);
+
+// Grid containers
+
+$grid-breakpoints: (
+  xxxs: 0,
+  xxs: 320px,
+  xs: 568px,
+  sm: 667px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1440px,
+  xxxl: 1600px
 );
 
 // Grid columns

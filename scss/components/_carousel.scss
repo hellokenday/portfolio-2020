@@ -3,20 +3,22 @@
 
 // Project carousel
 
-.card {
-  border: none;
-  border-radius: 0;
-}
-.card-body {
-    padding: 1rem 0;
+.project-carousel {
 
-    h5 {
-      margin-bottom: 0.25rem;
-    }
-}
-.card-img-top {
-    border-top-left-radius:  0;
-    border-top-right-radius: 0;
+  .card {
+    border: none;
+  }
+  .card-body {
+      padding: 1rem 0;
+
+      h5 {
+        margin-bottom: 0.25rem;
+      }
+  }
+  .card-img-top {
+      border-top-left-radius:  0;
+      border-top-right-radius: 0;
+  }
 }
 
 .owl-carousel h5 {
