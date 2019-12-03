@@ -19243,7 +19243,8 @@ section.bg-grey {
   padding: 40px 0 40px 0; }
 
 @media (max-width: 666.98px) {
-  .about .text-muted.font-weight-light {
+  .about .text-muted.font-weight-light,
+  .about h4 .text-muted {
     display: block; } }
 
 /*# sourceMappingURL=theme.css.map */

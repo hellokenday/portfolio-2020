@@ -2,7 +2,8 @@
 
 .about {
   
-  .text-muted.font-weight-light {
+  .text-muted.font-weight-light,
+  h4 .text-muted {
 
     @include media-breakpoint-down(xs) {
       display: block;
