@@ -36,29 +36,12 @@
     font-style: normal;
 }
 
-// Platin Light
+// Noto serif
 
-@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8d921965-fb59-4e80-8735-5334141af6a3&fontids=5607912");
-
-  @font-face {
-      font-family:"Plantin Light";
-      src:url("/fonts/plantin/2c17b39d-2d4b-4aea-830c-187fabc5bc3d.eot?#iefix");
-      src:url("/fonts/plantin/2c17b39d-2d4b-4aea-830c-187fabc5bc3d.eot?#iefix") format("eot"),url("/fonts/plantin/94834402-7ccb-47a0-a20f-28759066e23b.woff2") format("woff2"),url("/fonts/plantin/50d3e854-4121-44aa-b019-bd0d8a758cb3.woff") format("woff"),url("/fonts/plantin/c81ca7fe-bf4d-490f-b606-f277f6bf37cb.ttf") format("truetype");
-  }
-
-// Playfiar Display
-
-// @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
-
-// Roboto
-
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,500,600,700&display=swap');
 
 // Fallback fonts
 //
 
-// Crimson Text
-@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
-
-// Lato
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+// Noto Sans
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap');

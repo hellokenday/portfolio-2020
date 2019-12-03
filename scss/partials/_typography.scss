@@ -1,49 +1,58 @@
 // typography.scss
+//
 
-// h2 {
-//   font-size: 3rem;
-// }
+// headers
 
-// h3 {
-//   font-size: 40px;
-// }
-
-h4 {
-  font-size: 1.25rem;
+h1 {
+  font-size: 48px;
+  &, & a {
+    font-weight: 600;
+  }
 }
 
-// h5 {
-//   font-size: 22px;
-// }
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
 
 html {
   font-size: 1rem;
 }
 
 .section {
-    a {
-      color: $light-blue;
-      &:hover {
-        color: $light-blue;
-      }
-    }
-   p a, li a {
-    border-bottom: 1px solid #00829A;
-    color: $body-color;
-    &:hover {
-      color: $light-blue;
-    }
+
+  h2 {
+    margin-bottom: 32px;
+  }
+
+  h3 {
+    margin-top: 32px;
   }
 }
 
-.collapsible-link.collapsible-link {
-  border-bottom: none;
-  color: $light-blue;
-}
+// body
 
 body { 
   -webkit-font-smoothing: antialiased;
-  font-size: 20px;
+  font-size: 22px;
+  @include media-breakpoint-down(sm) {
+    font-size: 20px;
+  }
 }
 
 span {
@@ -51,18 +60,6 @@ span {
     color: $text-muted;
   }
 }
-
-.navbar,
-a {
-  font-weight: 400;
-}
-
-.underlined {
-  text-decoration: none;
-    color: rgb(25,25,25);
-    padding-bottom: 0px;
-    background: linear-gradient(to right, $primary-lighter 0%, $primary-lighter 100%);
-    background-size: 1px 8px;
-    background-position: 0 76%;
-    background-repeat: repeat-x;
+figcaption {
+  font-weight: normal;
 }
