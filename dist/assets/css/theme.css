@@ -19072,11 +19072,14 @@ h5 {
 html {
   font-size: 1rem; }
 
-.section h2 {
+.section h2, .project-carousel h2 {
   margin-bottom: 32px; }
 
-.section h3 {
+.section h3, .project-carousel h3 {
   margin-top: 32px; }
+
+.about h3 {
+  margin-top: 0; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -19238,5 +19241,9 @@ figcaption {
 section.bg-grey {
   padding-bottom: 0;
   padding: 40px 0 40px 0; }
+
+@media (max-width: 666.98px) {
+  .about .text-muted.font-weight-light {
+    display: block; } }
 
 /*# sourceMappingURL=theme.css.map */

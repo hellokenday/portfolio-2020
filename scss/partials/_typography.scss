@@ -34,7 +34,7 @@ html {
   font-size: 1rem;
 }
 
-.section {
+.section, .project-carousel {
 
   h2 {
     margin-bottom: 32px;
@@ -43,6 +43,10 @@ html {
   h3 {
     margin-top: 32px;
   }
+}
+
+.about h3 {
+  margin-top: 0;
 }
 
 // body
