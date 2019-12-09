@@ -18940,6 +18940,12 @@ img.rounded, div.rounded {
       padding-left: 24px;
       padding-right: 24px; } }
 
+.container-lg {
+  margin-left: 24px;
+  margin-right: 24px;
+  max-width: 1240px;
+  margin: 0 auto; }
+
 .last-section {
   padding-bottom: 196px; }
   @media (max-width: 767.98px) {
