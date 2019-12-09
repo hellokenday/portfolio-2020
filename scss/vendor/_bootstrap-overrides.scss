@@ -1,5 +1,9 @@
 // bootstrap-overrides.scss
 
 .card {
-  border-radius: 0;
+  border-radius: $border-radius;
+}
+
+img.rounded, div.rounded{
+  border-radius: $border-radius !important;
 }
