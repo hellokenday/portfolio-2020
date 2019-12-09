@@ -18941,8 +18941,8 @@ img.rounded, div.rounded {
       padding-right: 24px; } }
 
 .container-lg {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 48px;
+  margin-right: 48px;
   max-width: 1240px;
   margin: 0 auto; }
 
@@ -19102,6 +19102,9 @@ span.font-italic {
 
 figcaption {
   font-weight: normal; }
+
+.font-weight-medium {
+  font-weight: 500; }
 
 .visit-site .fa, .visit-site .fas, .visit-site .far {
   padding-left: 2px;
