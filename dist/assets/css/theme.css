@@ -19004,6 +19004,8 @@ a h3 {
 .collapsible-link.collapsible-link {
   border-bottom: none;
   color: #00829A; }
+  .collapsible-link.collapsible-link:hover {
+    color: #005767; }
 
 .section a {
   color: #00829A; }
@@ -19105,6 +19107,9 @@ figcaption {
 
 .font-weight-medium {
   font-weight: 500; }
+
+.text-medium {
+  font-size: 20px; }
 
 .visit-site .fa, .visit-site .fas, .visit-site .far {
   padding-left: 2px;

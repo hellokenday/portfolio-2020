@@ -97,6 +97,10 @@ a h3 {
 .collapsible-link.collapsible-link {
   border-bottom: none;
   color: $light-blue;
+
+  &:hover {
+    color: darken($light-blue, 10%)
+  }
 }
 
 .section {
