@@ -19033,6 +19033,9 @@ a img,
   .homepage h1 a:hover:hover {
     opacity: 0.6; }
 
+.shadow-md {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important; }
+
 @font-face {
   font-family: 'Apercu';
   src: url("../scss/fonts/apercu/apercu-light.eot");

@@ -137,3 +137,9 @@ a img,
     opacity: 0.6;
   }
 }
+
+// Shadows
+
+.shadow-md {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
