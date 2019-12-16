@@ -126,7 +126,8 @@ a h3 {
 
 a img,
 .display-4 a,
-.homepage h1 a:hover {
+.homepage h1 a:hover,
+a:hover .cover-img {
     transition:     opacity 0.2s ease-in-out;
     -moz-transition:  opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
