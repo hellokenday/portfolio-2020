@@ -19035,6 +19035,9 @@ a:hover .cover-img {
   a:hover .cover-img:hover {
     opacity: 0.6; }
 
+.mx-w-650 {
+  max-width: 650px; }
+
 .shadow-md {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important; }
 
