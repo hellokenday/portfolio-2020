@@ -18940,6 +18940,9 @@ img.rounded, div.rounded {
       padding-left: 24px;
       padding-right: 24px; } }
 
+.mw-1280 {
+  max-width: 1280px; }
+
 .container-lg {
   margin-left: 48px;
   margin-right: 48px;
@@ -19043,6 +19046,9 @@ a:hover .cover-img {
 
 .rounded-xl {
   border-radius: 22px; }
+
+.bg-dark-grey {
+  background: #f3f3f5; }
 
 @font-face {
   font-family: 'Apercu';

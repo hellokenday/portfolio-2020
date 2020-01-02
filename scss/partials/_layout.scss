@@ -8,6 +8,10 @@
   }
 }
 
+.mw-1280 {
+  max-width: 1280px;
+}
+
 .container-lg {
   margin-left:  $spacing-md;
   margin-right: $spacing-md;
@@ -153,4 +157,10 @@ a:hover .cover-img {
 
 .rounded-xl {
   border-radius: 22px;
+}
+
+// background
+
+.bg-dark-grey {
+  background: #f3f3f5;
 }
