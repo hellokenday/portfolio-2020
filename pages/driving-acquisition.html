@@ -235,60 +235,91 @@
           </h2>      
 
           <p>
-            I carried out stakeholder interviews, user interviews, and usability testing of the current sign-up flow to understand the problem.
+            I carried out stakeholder interviews, user interviews, and usability testing of the sign-up flow to understand the problem.
           </p>
+        </div>
+        
+        <!--- tabs -->
+        <div class="mt-4 mb-md-7">
+          <ul class="nav nav-pills nav-pills-scroll mb-2" id="pills-understand-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-understand-1-tab" data-toggle="pill" href="#pills-understand-1" role="tab" aria-controls="pills-understand-1" aria-selected="true">Research findings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-understand-2-tab" data-toggle="pill" href="#pills-understand-2" role="tab" aria-controls="pills-understand-2-tab" aria-selected="false">Problem space</a>
+            </li>
+          </ul>
+          
+          <!-- tab-content -->
+          <div class="tab-content" id="pills-understand-tabContent">
+      
+            <div class="tab-pane fade show active" id="pills-understand-1" role="tabpanel" aria-labelledby="pills-understand-1-tab">
 
-          <h3 class="mt-4">Research findings</h3> 
-        </div>
-        
-        <div class="bg-grey">
-          <div class="p-2 p-md-6">
-            <img src="assets/img/th/test-findings@2x.jpg" alt="User story map" class="rounded shadow-md">
-          </div>
-        </div>
-        <figcaption class="figure-caption text-left text-muted">User testing results</figcaption>
-        
-        <!-- research -->
-        <div class="section mt-6 mb-5">
-          <h3>Problem space</h3>
-        </div>
-        
-        <div class="row mb-3 mb-md-5">
-          <!-- step 1 -->
-          <div class="col-lg-4 d-flex">
-            <div class="card card-body">
-              <div class="flex-grow-1">
-                <p class="mb-1 font-weight-bold">No brand loyalty</p>
-                <span class="text-muted ">
-                  "There’s nothing that makes me think the service is legit. How do I know I can trust you with my baking information?"
-                </span>
+              <div class="bg-grey">
+                <div class="p-2 p-md-6">
+                  <img src="assets/img/th/test-findings@2x.jpg" alt="Summary research" class="rounded shadow-md">
+                </div>
               </div>
-            </div>
-          </div>
-          <!-- step 2 -->
-          <div class="col-lg-4 d-flex">
-            <div class="card card-body">
-              <div class="flex-grow-1">
-                <p class="mb-1 font-weight-bold">Confusion around how we pay experts</p>
-                <span class="text-muted ">
-                  "People can’t use my deposit details to spend, can they? I'm not really sure.”
-                </span>
-              </div>
-            </div>
-          </div>
-          <!-- step 3 -->
-          <div class="col-lg-4 d-flex">
-            <div class="card card-body">
-              <div class="flex-grow-1">
-                <p class="mb-1 font-weight-bold">Distrust in website sign-up</p>
-                <span class="text-muted">
-                  "Websites are easier to create and set up scams. An app is harder to build.."
-                </span>
-              </div>
-            </div>
-          </div>
-        </div> <!-- ./row -->
+              <figcaption class="figure-caption text-left text-muted">Summary of research</figcaption>
+               
+              <!--
+              <div class="section">
+                <p class="mt-4">
+                  blah
+                </p>
 
+                <p class="text-muted font-italic">
+                  blah
+                </p>
+              </div>
+              -->
+
+            </div> <!-- ./tab-pane -->
+            
+            <div class="tab-pane fade" id="pills-understand-2" role="tabpanel" aria-labelledby="pills-understand-2-tab">
+
+              <div class="row mb-3 mb-md-5">
+                <!-- step 1 -->
+                <div class="col-lg-4 d-flex">
+                  <div class="card card-body">
+                    <div class="flex-grow-1">
+                      <p class="mb-1 font-weight-bold">No brand loyalty</p>
+                      <span class="text-muted ">
+                        "There’s nothing that makes me think the service is legit. How do I know I can trust you with my baking information?"
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- step 2 -->
+                <div class="col-lg-4 d-flex">
+                  <div class="card card-body">
+                    <div class="flex-grow-1">
+                      <p class="mb-1 font-weight-bold">Confusion around how we pay experts</p>
+                      <span class="text-muted ">
+                        "People can’t use my deposit details to spend, can they? I'm not really sure.”
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <!-- step 3 -->
+                <div class="col-lg-4 d-flex">
+                  <div class="card card-body">
+                    <div class="flex-grow-1">
+                      <p class="mb-1 font-weight-bold">Distrust in website sign-up</p>
+                      <span class="text-muted">
+                        "Websites are easier to create and set up scams. An app is harder to build.."
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- ./row -->
+
+            </div> <!-- ./tab-pane -->
+            
+          </div> <!-- ./tab-content -->
+        </div> <!-- ./tab-wrapper -->
+
+       
         <!-- phase 2: define -->
         <div class="section mt-6">
           <h2 class="section mt-md-7 mt-6 mb-6">
@@ -323,13 +354,6 @@
           <span class="text-muted">How might we</span> ensure experts feel comfortable entering their payment information?
         </p>
         <hr>  
-        
-        
-        
-        
-        
-        
-        
 
         <!-- phase 3: sketch -->
         <div class="section mt-md-7 mt-6 mb-4">
@@ -337,7 +361,7 @@
             <span class="text-muted">Phase 3:</span> Sketch
           </h2>
           <p>
-            Ideating possible solutions for how me might ensure experts feel comfortable when entering their payment information.
+            Ideating possible solutions for how we might ensure experts feel comfortable when entering their payment information.
           </p>
         </div>
 
@@ -378,28 +402,49 @@
             
             <div class="tab-pane fade" id="pills-ideation-2" role="tabpanel" aria-labelledby="pills-ideation-2-tab">
 
-              <!--- rowed images -->
               <div class="bg-grey">
-                <div class="col-11 mx-auto">
-                  <div class="row">
-                    <div class="col-6 col-md p-3 p-md-5">
-                      <img src="assets/img/switchback/wireframes/wireframe-1@2x.png" alt="App screen design" class="rounded-xl shadow-md">
-                    </div> <!-- ./col -->
-                    <div class="col-6 col-md p-3 p-md-5 mt-4">
-                      <img src="assets/img/switchback/wireframes/wireframe-2@2x.png" alt="App screen design" class="rounded-xl shadow-md">
-                    </div> <!-- ./col -->
-                    <div class="col-6 col-md p-3 p-md-5 d-none d-md-block">
-                      <img src="assets/img/switchback/wireframes/wireframe-3@2x.png" alt="App screen design" class="rounded-xl shadow-md">
-                    </div> <!-- ./col -->
-                  </div><!-- ./row -->
+                <div class="p-2 p-md-6">
+                  <img src="assets/img/heybryan/sketch.jpg" alt="Crazy 8's sketch" class="rounded shadow-sm">
                 </div>
-              </div> <!-- ./bg-grey -->
-              <figcaption class="figure-caption text-left text-muted">HMW stop users publishing secret trail locations?</figcaption>
+              </div>
+              <figcaption class="figure-caption text-left text-muted">Solution sketches</figcaption>
+               
+              <div class="section">
+                <p class="mt-4">
+                  Fleshed out ideas for communicating how we use expert's payment info and setting up their account using secure banking integration.
+                </p>
+
+                <p class="text-muted font-italic">
+                  Here we expanded on our best crazy 8's idea in a storyboard format.
+                </p>
+              </div>
 
             </div> <!-- ./tab-pane -->
             
           </div> <!-- ./tab-content -->
         </div> <!-- ./tab-wrapper -->
+        
+        <!-- phase 4: decide -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         <!-- evaluate -->
         <div class="section mt-md-7 mt-6 mb-4">
